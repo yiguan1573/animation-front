@@ -1,0 +1,96 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body {
+		background-color: rgb(247,248,249);
+		font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	}
+	::-webkit-scrollbar {
+	width: 6px;
+	height: 10px;
+	}
+	::-webkit-scrollbar-track-piece {
+	background-color: #DEDEDE;
+	-webkit-border-radius: 6px;
+	}
+	
+	::-webkit-scrollbar-thumb:vertical {
+	height: 6px;
+	background-color: rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 6px;
+	}
+	
+	::-webkit-scrollbar-thumb:horizontal {
+	width: 6px;
+	background-color: rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 6px;
+	}
+	
+	.animation-title{
+		float: left;
+		font-size: 28px;
+		font-weight: 700;
+		margin-left: 10px;
+	}
+	.animation-svg1{
+		float: left;
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		background-image: url('../image/svg/daylong.png');
+	}
+	.animation-svg2{
+		float: left;
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		background-image: url('../image/svg/ova.png');
+	}
+	.animation-svg3{
+		float: left;
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		background-image: url('../image/svg/history.png');
+	}
+	.animation-svg4{
+		float: left;
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		background-image: url('../image/svg/collect.png');
+	}
+	.animation-svg4{
+		float: left;
+		background-size: cover;
+		width: 40px;
+		height: 40px;
+		background-image: url('../image/svg/search.png');
+	}
+	.animation-more{
+		cursor: pointer;
+		border: 1px solid #b8c0cc;
+		border-radius: 4px;
+		color: #6d757a;
+		font-size: 13px;
+		padding: 3px 6px 3px 10px;
+		margin-top: 14px;
+		right: 0;
+		float: right;
+	}
+	.animation-more:hover{
+		color: #87CEFF;
+		border: 1px solid #87CEFF;
+	}
+	.animation-list{
+		/* position: absolute; */
+		margin-top: 20px;
+		display: flex;
+		flex-wrap:wrap;
+		margin-bottom: 40px;
+		width: 98%;
+		margin-left: 2%;
+		height: auto;
+		/* background-color: #87CEFF; */
+	}
